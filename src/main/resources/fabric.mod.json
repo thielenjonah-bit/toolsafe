@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "toolsafe",
+  "version": "${version}",
+  "name": "Tool Safe",
+  "description": "Tools and weapons stop working shortly before they break.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": [ "dev.toolsafe.ToolSafeClient" ] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
